@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E3D4491A5FC398003BAF2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D4481A5FC398003BAF2E /* AppDelegate.swift */; };
+		03E3D44B1A5FC398003BAF2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D44A1A5FC398003BAF2E /* Images.xcassets */; };
+		03E3D44E1A5FC399003BAF2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E3D44C1A5FC399003BAF2E /* MainMenu.xib */; };
+		03E3D45A1A5FC39A003BAF2E /* Show_Hidden_FilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3D4591A5FC39A003BAF2E /* Show_Hidden_FilesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E3D4541A5FC39A003BAF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E3D43B1A5FC397003BAF2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E3D4421A5FC397003BAF2E;
+			remoteInfo = "Show Hidden Files";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E3D4431A5FC397003BAF2E /* Show Hidden Files.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show Hidden Files.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E3D4471A5FC398003BAF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E3D4481A5FC398003BAF2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E3D44A1A5FC398003BAF2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03E3D44D1A5FC399003BAF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03E3D4531A5FC39A003BAF2E /* Show Hidden FilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Show Hidden FilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E3D4581A5FC39A003BAF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E3D4591A5FC39A003BAF2E /* Show_Hidden_FilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_Hidden_FilesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E3D4401A5FC397003BAF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E3D4501A5FC39A003BAF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E3D43A1A5FC396003BAF2E = {
+			isa = PBXGroup;
+			children = (
+				03E3D4451A5FC397003BAF2E /* Show Hidden Files */,
+				03E3D4561A5FC39A003BAF2E /* Show Hidden FilesTests */,
+				03E3D4441A5FC397003BAF2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E3D4441A5FC397003BAF2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D4431A5FC397003BAF2E /* Show Hidden Files.app */,
+				03E3D4531A5FC39A003BAF2E /* Show Hidden FilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E3D4451A5FC397003BAF2E /* Show Hidden Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D4481A5FC398003BAF2E /* AppDelegate.swift */,
+				03E3D44A1A5FC398003BAF2E /* Images.xcassets */,
+				03E3D44C1A5FC399003BAF2E /* MainMenu.xib */,
+				03E3D4461A5FC397003BAF2E /* Supporting Files */,
+			);
+			path = "Show Hidden Files";
+			sourceTree = "<group>";
+		};
+		03E3D4461A5FC397003BAF2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D4471A5FC398003BAF2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E3D4561A5FC39A003BAF2E /* Show Hidden FilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D4591A5FC39A003BAF2E /* Show_Hidden_FilesTests.swift */,
+				03E3D4571A5FC39A003BAF2E /* Supporting Files */,
+			);
+			path = "Show Hidden FilesTests";
+			sourceTree = "<group>";
+		};
+		03E3D4571A5FC39A003BAF2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E3D4581A5FC39A003BAF2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E3D4421A5FC397003BAF2E /* Show Hidden Files */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E3D45D1A5FC39A003BAF2E /* Build configuration list for PBXNativeTarget "Show Hidden Files" */;
+			buildPhases = (
+				03E3D43F1A5FC397003BAF2E /* Sources */,
+				03E3D4401A5FC397003BAF2E /* Frameworks */,
+				03E3D4411A5FC397003BAF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Show Hidden Files";
+			productName = "Show Hidden Files";
+			productReference = 03E3D4431A5FC397003BAF2E /* Show Hidden Files.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E3D4521A5FC39A003BAF2E /* Show Hidden FilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E3D4601A5FC39A003BAF2E /* Build configuration list for PBXNativeTarget "Show Hidden FilesTests" */;
+			buildPhases = (
+				03E3D44F1A5FC39A003BAF2E /* Sources */,
+				03E3D4501A5FC39A003BAF2E /* Frameworks */,
+				03E3D4511A5FC39A003BAF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E3D4551A5FC39A003BAF2E /* PBXTargetDependency */,
+			);
+			name = "Show Hidden FilesTests";
+			productName = "Show Hidden FilesTests";
+			productReference = 03E3D4531A5FC39A003BAF2E /* Show Hidden FilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E3D43B1A5FC397003BAF2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joshua Raichur";
+				TargetAttributes = {
+					03E3D4421A5FC397003BAF2E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					03E3D4521A5FC39A003BAF2E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 03E3D4421A5FC397003BAF2E;
+					};
+				};
+			};
+			buildConfigurationList = 03E3D43E1A5FC397003BAF2E /* Build configuration list for PBXProject "Show Hidden Files" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E3D43A1A5FC396003BAF2E;
+			productRefGroup = 03E3D4441A5FC397003BAF2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E3D4421A5FC397003BAF2E /* Show Hidden Files */,
+				03E3D4521A5FC39A003BAF2E /* Show Hidden FilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E3D4411A5FC397003BAF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3D44B1A5FC398003BAF2E /* Images.xcassets in Resources */,
+				03E3D44E1A5FC399003BAF2E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E3D4511A5FC39A003BAF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E3D43F1A5FC397003BAF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3D4491A5FC398003BAF2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E3D44F1A5FC39A003BAF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3D45A1A5FC39A003BAF2E /* Show_Hidden_FilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E3D4551A5FC39A003BAF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E3D4421A5FC397003BAF2E /* Show Hidden Files */;
+			targetProxy = 03E3D4541A5FC39A003BAF2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E3D44C1A5FC399003BAF2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E3D44D1A5FC399003BAF2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E3D45B1A5FC39A003BAF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E3D45C1A5FC39A003BAF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03E3D45E1A5FC39A003BAF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Show Hidden Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E3D45F1A5FC39A003BAF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Show Hidden Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03E3D4611A5FC39A003BAF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Show Hidden FilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Show Hidden Files.app/Contents/MacOS/Show Hidden Files";
+			};
+			name = Debug;
+		};
+		03E3D4621A5FC39A003BAF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Show Hidden FilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Show Hidden Files.app/Contents/MacOS/Show Hidden Files";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E3D43E1A5FC397003BAF2E /* Build configuration list for PBXProject "Show Hidden Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E3D45B1A5FC39A003BAF2E /* Debug */,
+				03E3D45C1A5FC39A003BAF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E3D45D1A5FC39A003BAF2E /* Build configuration list for PBXNativeTarget "Show Hidden Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E3D45E1A5FC39A003BAF2E /* Debug */,
+				03E3D45F1A5FC39A003BAF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03E3D4601A5FC39A003BAF2E /* Build configuration list for PBXNativeTarget "Show Hidden FilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E3D4611A5FC39A003BAF2E /* Debug */,
+				03E3D4621A5FC39A003BAF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E3D43B1A5FC397003BAF2E /* Project object */;
+}
